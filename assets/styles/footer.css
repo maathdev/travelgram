@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    gap: 16px;
+}
+
+footer ul a {
+    color: var(--text-color-secondary);
+}
