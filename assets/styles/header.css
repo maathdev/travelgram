@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 32px;
+}
+
+.profile {
+    display: flex;
+    gap: 32px;
+}
+
+.profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile ul {
+    width: 400px;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+
+.info ul li {
+    display: flex;
+    gap: 8px;
+}
